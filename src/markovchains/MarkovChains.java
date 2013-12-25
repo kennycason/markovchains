@@ -1,7 +1,11 @@
 package markovchains;
 
+import markovchains.ngram.INGram;
+import markovchains.ngram.ITokenizer;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -10,17 +14,14 @@ import java.util.Map;
 import java.util.Random;
 import java.util.Set;
 
-import markovchains.ngram.INGram;
-import markovchains.ngram.ITokenizer;
-
 public class MarkovChains {
 	
 	private static final int MAX_SIZE = 15;
-	
+
 	private Map<INGram, List<INGram>> stats;
 	
 	private List<INGram> starts;
-	
+
 	private Set<INGram> terminals;
 	
 	private Set<Sentence> all;
@@ -60,7 +61,6 @@ public class MarkovChains {
 			if(!all.contains(sentence)) {
 				sentences.add(sentence);
 			}
-			
 		}
 		return sentences;
 	}
@@ -88,6 +88,10 @@ public class MarkovChains {
 		}
 		
 		// build stats
+        // this approach, while less memory efficient than storing "word" -> [word frequencies] pairs it stores each
+        // occurrence of a word that follows. so if the word "foo" is followed by "bar" 3 times and "frog" 1 time
+        // it will be stored as "bar" -> ["bar" "bar" "bar" "frog"], thus a random drawing from the bag of words will
+        // take into account frequencies.
 		for(Sentence sentence : all) {
 			if(sentence.grams().length == 0) { continue; }
 			
@@ -97,7 +101,7 @@ public class MarkovChains {
 			INGram[] ngrams = sentence.grams();
 			for(int i = 0; i < ngrams.length - 1; i++) {
 				if(!stats.containsKey(ngrams[i])) {
-					stats.put(ngrams[i], new LinkedList<INGram>());
+					stats.put(ngrams[i], new ArrayList<INGram>());
 				} 
 				stats.get(ngrams[i]).add(ngrams[i + 1]);
 			}
