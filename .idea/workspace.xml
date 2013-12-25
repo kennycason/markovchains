@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3481c79f-725f-4cbb-b6dd-cdeeed258aa6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/markovchains/gen/GameTitles.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/markovchains/gen/HNTopPosts.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/markovchains/gen/TidePodTweets.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/texts/game_titles.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markovchains.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markovchains/MarkovChainsGenerator.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/markovchains/MarkovChains.java" afterPath="$PROJECT_DIR$/src/markovchains/MarkovChains.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/markovchains/Sentence.java" afterPath="$PROJECT_DIR$/src/markovchains/Sentence.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/markovchains/gen/GameTitles.java" afterPath="$PROJECT_DIR$/src/markovchains/gen/GameTitles.java" />
     </list>
     <ignored path="markovchains.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,10 +66,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="6" selection-start="44" selection-end="44" vertical-scroll-proportion="0.084033616" vertical-offset="0" max-vertical-offset="714">
+            <state line="4" column="6" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
               <folding />
             </state>
           </provider>
@@ -111,10 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameTitles.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="GameTitles.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/markovchains/gen/GameTitles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="23" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="540">
+            <state line="23" column="0" selection-start="707" selection-end="707" vertical-scroll-proportion="0.42016807" vertical-offset="0" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -136,6 +118,7 @@
         <option value="$PROJECT_DIR$/src/markovchains/Sentence.java" />
         <option value="$PROJECT_DIR$/src/markovchains/MarkovChains.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/markovchains/gen/GameTitles.java" />
       </list>
     </option>
   </component>
@@ -522,12 +505,12 @@
       <created>1387942530334</created>
       <updated>1387942530334</updated>
       <workItem from="1387942535633" duration="1294000" />
-      <workItem from="1387944026838" duration="48000" />
+      <workItem from="1387944026838" duration="120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1342000" />
+    <option name="totallyTimeSpent" value="1414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="832" extended-state="6" />
@@ -610,13 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/markovchains/gen/GameTitles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="23" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/markovchains/Sentence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="48" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="765">
@@ -633,7 +609,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="44" selection-end="44" vertical-scroll-proportion="0.084033616" vertical-offset="0" max-vertical-offset="714">
+        <state line="4" column="6" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/markovchains/gen/GameTitles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="707" selection-end="707" vertical-scroll-proportion="0.42016807" vertical-offset="0" max-vertical-offset="714">
           <folding />
         </state>
       </provider>

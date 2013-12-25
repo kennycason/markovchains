@@ -21,6 +21,7 @@ public class GameTitles {
 		
 		System.out.println("Bigram:\n--------------------");
 		mc = new MarkovChains("texts/game_titles.txt", new BigramTokenizer());
+
 		for(Sentence gen : mc.generate(50, 5)) {
 			System.out.println(gen);
 		}
